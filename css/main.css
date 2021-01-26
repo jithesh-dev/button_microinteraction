@@ -42,9 +42,17 @@ button:before {
   left: 0.5em;
   z-index: -1;
   border-radius: 0.2em;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+button:hover:before {
+  top: 0.25em;
+  left: 0.25em;
 }
 
 p {
+  margin-top: 2em;
   text-align: center;
   font-weight: bold;
   -webkit-clip-path: circle(0% at 50% 50%);
